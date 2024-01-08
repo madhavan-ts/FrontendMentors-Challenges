@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/fully-responsive-social-proof-section-using-grid-and-flex-tKMmQwMblP)
+- Live Site URL: [Live site URL](https://adorable-rabanadas-7d234a.netlify.app/)
 
 ## My process
 
