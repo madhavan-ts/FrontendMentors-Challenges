@@ -1,0 +1,155 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--light-gray);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  border-radius: 1rem;
+  width: 63.5rem;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(1fr, max-content));
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.card {
+  padding: 4rem;
+}
+
+.card--top {
+  background-color: white;
+  border-radius: 1rem 1rem 0 0;
+  grid-column: span 2;
+}
+
+.card__heading--1 {
+  font-weight: 700;
+  color: var(--cyan);
+  margin-bottom: 2rem;
+}
+
+.card-top-heading {
+  font-weight: 700;
+  color: var(--bright-yellow);
+  margin-bottom: 1rem;
+}
+
+.card__paragraph {
+  /* padding-right: 6rem; */
+  color: var(--light-gray);
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.card--left {
+  border-radius: 0 0 0 1rem;
+  background-color: var(--cyan);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-left-heading,
+.card-right-heading {
+  color: var(--light-gray);
+  margin-bottom: 2rem;
+}
+
+.card__price-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: var(--light-gray);
+  margin-bottom: 0.5rem;
+}
+
+.card__price-wrapper ~ .card__paragraph {
+  margin-bottom: auto;
+}
+
+.btn {
+  /* display: inline-block; */
+  cursor: pointer;
+  border: 0;
+  padding: 1.5rem;
+  width: 100%;
+  font-family: "Karla", sans-serif;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: var(--bright-yellow);
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.card__price-value {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  margin-right: 1.5rem;
+}
+
+.card--right {
+  border-radius: 0 0 1rem 0;
+  background-color: hsl(179, 47%, 52%);
+}
+.card--right .card__paragraph {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.card-top-paragraph {
+  color: var(--grayish-blue);
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    width: 31rem;
+    grid-template-rows: repeat(3, minmax(max-content, 1fr));
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    border-radius: 0;
+    padding: 2rem;
+  }
+
+  .card--top {
+    border-radius: 0.5rem 0.5rem 0 0;
+    grid-column: 1/-1;
+  }
+
+  .card--right {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}
+
+/* ----------------footer----------------------- */
+.attribution {
+  font-size: 1.2rem;
+  margin-bottom: 1.6rem;
+  margin-top: auto;
+}
