@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-using-grid-fWPckYEwN5)
+- Live Site URL: [Live site URL](https://magical-salamander-26b1a3.netlify.app/)
 
 ## My process
 
