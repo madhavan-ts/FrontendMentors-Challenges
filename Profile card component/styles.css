@@ -1,0 +1,122 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --dark-blue: hsl(229, 23%, 23%);
+  --dark-gray-blue: hsl(227, 10%, 46%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: inherit;
+  min-height: 100vh;
+  background-color: var(--dark-cyan);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-position: -200px -500px, 800px 400px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.card {
+  background-image: url(./images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  border-radius: 1.7rem;
+  /* padding: 0rem 1rem 1rem 1rem; */
+  width: 340px;
+  margin-top: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-position: -800px -500px, 100px 400px;
+  }
+}
+.card__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img {
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: -2rem;
+}
+
+.card__img-container {
+  margin-top: 9rem;
+  margin-bottom: 2rem;
+}
+
+.card__name {
+  color: var(--dark-blue);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+}
+.card__age {
+  margin-left: 1rem;
+  font-weight: 400;
+  color: var(--dark-gray-blue);
+}
+
+.card__location {
+  color: var(--dark-gray-blue);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.card__stats {
+  padding: 3rem;
+  align-self: stretch;
+  border-top: 2px solid hsl(0, 0%, 90%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.card__stats__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__stats__num {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+  margin-bottom: 0.5rem;
+}
+
+.card__stats-word {
+  font-size: 1.4rem;
+  color: var(--dark-gray-blue);
+}
+
+/* ---------------------footer--------------- */
+
+.attribution {
+  /* color: black; */
+  font-size: 1.4rem;
+  margin-top: auto;
+  margin-bottom: 1.6rem;
+}

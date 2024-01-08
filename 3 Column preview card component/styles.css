@@ -1,0 +1,146 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--very-light-gray);
+  margin-top: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.card:first-child {
+  border-radius: 0.7rem 0 0 0.7rem;
+}
+
+.card:last-child {
+  border-radius: 0 0.7rem 0.7rem 0;
+}
+
+.card {
+  padding: 4rem;
+  width: 27rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card--sedan {
+  background-color: var(--bright-orange);
+}
+
+.card--suv {
+  background-color: var(--dark-cyan);
+}
+
+.card--luxury {
+  background-color: var(--very-dark-cyan);
+}
+
+.card__image {
+  margin-bottom: 2.5rem;
+}
+
+.card__heading {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: var(--very-light-gray);
+}
+
+.card__paragraph {
+  font-size: 1.2rem;
+  color: var(--transparent-white);
+  margin-bottom: 8rem;
+  line-height: 2.2rem;
+}
+
+.btn {
+  margin-top: auto;
+  padding: 1.5rem 3rem;
+  border-radius: 100px;
+  border: 2px solid var(--very-light-gray);
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--very-light-gray);
+}
+
+.btn--sedan {
+  color: var(--bright-orange);
+}
+
+.btn--suv {
+  color: var(--dark-cyan);
+}
+
+.btn--luxury {
+  color: var(--very-dark-cyan);
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    flex-direction: column;
+    margin: 4rem 0;
+  }
+
+  .card:first-child {
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .card:last-child {
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  .card__paragraph {
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    padding: 1rem 2.5rem;
+  }
+}
+
+/* ------------------footer------------------------ */
+.attribution {
+  font-size: 1.2rem;
+  margin-top: auto;
+  margin-bottom: 1.6rem;
+}

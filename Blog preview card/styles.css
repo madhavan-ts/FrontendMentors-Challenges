@@ -1,0 +1,127 @@
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --grey: hsl(0, 0%, 50%);
+  --yellow-primary: hsl(47, 88%, 63%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: inherit;
+  background-color: var(--yellow-primary);
+}
+
+html {
+  font-family: "Figtree", sans-serif;
+  font-size: 62.5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* cursor: pointer; */
+  margin-top: auto;
+  width: 30rem;
+  border-radius: 2rem;
+  padding: 1.7rem;
+  border: 0.1rem solid var(--black);
+  box-shadow: 0.6rem 0.6rem var(--black);
+  background-color: var(--white);
+  /* gap: 1rem; */
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: translate(-.5rem,-.5rem);
+  box-shadow: 1.6rem 1.6rem var(--black);
+}
+
+.card:hover .card__link{
+  color:var(--yellow-primary);
+}
+
+.card__link:focus {
+  outline: 0;
+  color: var(--yellow-primary);
+}
+.card__status {
+  align-self: flex-start;
+  padding: 0.5rem 0.7rem;
+  background-color: var(--yellow-primary);
+  color: var(--black);
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card__date {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.attribution {
+  color: var(--black);
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin-top: auto;
+  margin-bottom: 1.6rem;
+}
+
+.card__link {
+  transition: color 0.2s;
+  font-size: 2rem;
+  cursor: pointer; 
+   text-decoration: none;
+  color: var(--black);
+}
+.card__paragraph {
+  font-weight: 400;
+  color: var(--grey);
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  margin-bottom: 2rem;
+}
+
+.card__author {
+  display: flex;
+  align-items: center;
+}
+.card__author-img {
+  margin-right: 1rem;
+  height: 3rem;
+  width: auto;
+}
+
+.card__author-name {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.card__heading{
+  margin-bottom: 1.2rem;
+}
+.card:hover > .card__link {
+  color: var(--yellow-primary);
+}
