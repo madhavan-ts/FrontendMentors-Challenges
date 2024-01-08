@@ -2,32 +2,18 @@
 
 This repository is a collection of all my solutions I submitted at [frontendmentor.io ](https://www.frontendmentor.io/)
 
-### Newbie
+### Newbie - Started 4 Jan 2024
 
-| Tags  | Challanges | Live|  Code|  Type| 
-| --- | -- |  -- | --  |  -- |
-| HTML--CSS      |  Stats preview card component | [Live](https://stats-preview-card-component-mp.netlify.app/) | [Code](https://git.io/Js28z) |Free|
-| HTML--CSS      | 3-column preview card component  | [Live](https://3-column-preview-card-component-mp.netlify.app/) | [Code](https://git.io/Js282) |Free|
-| HTML--CSS      | Profile card component  | [Live](https://profile-card-component-mp.netlify.app/) | [Code](https://git.io/Js28r) |Free|
-| HTML--CSS      | Four card feature section  | [Live](https://four-card-feature-section-mp.netlify.app/) | [Code](https://git.io/Js28i) |Free|
-| HTML--CSS--JS  | Base Apparel coming soon page | [Live](https://base-apparel-coming-soon-mp.netlify.app/) | [Code](https://git.io/Js28y) |Free|
-| HTML--CSS--JS  | Intro component with sign-up form   | [Live](https://intro-component-with-signup-form-mp.netlify.app/) | [Code](https://git.io/Js28d) |Free|
-| HTML--CSS      | Single price grid component    | [Live](https://single-price-grid-component-mp.netlify.app/) | [Code](https://git.io/Js28j) |Free|
-| HTML--CSS      | Ping single column coming soon page  | [Live](https://ping-coming-soon-page-mp.netlify.app/) | [Code](https://git.io/Js24v) |Free|
-| HTML--CSS      | Huddle landing page with a single introductory section | [Live](https://huddle-landing-page-with-single-introductory-section-mp.netlify.app/) | [Code](https://git.io/Js24J) |Free|
-| HTML--CSS      | NFT preview card component | [Live](https://nft-preview-card-component-mp.netlify.app/) | [Code](https://git.io/J9cku) |Free
-
-### Junior
-
-| Tags  | Challanges | Live|  Code|  Type| 
-| --- | -- |  -- | --  |  -- |
-| HTML--CSS--JS      |  Loopstudios landing page | [Live](https://loopstudios-landing-page-mp.netlify.app/) | [Code](https://git.io/Js2lx) |Free|
-| HTML--CSS     | Testimonials grid section  | [Live](https://testimonials-grid-section-mp.netlify.app/) | [Code](https://git.io/Js28J) |Free|
-| HTML--CSS--JS | Social media dashboard with theme switcher  | [Live](https://social-media-dashboard-with-theme-switcher-mp.netlify.app/) | [Code](https://git.io/Js28k) |Free|
-| HTML--CSS--JS | Project tracking intro component  | [Live](https://project-tracking-intro-component-mp.netlify.app/) | [Code](https://git.io/Js28t) |Free|
-| HTML--CSS     | Clipboard landing page| [Live](https://clipboard-landing-page-mp.netlify.app/) | [Code](https://git.io/Js28Y) |Free|
-| HTML--CSS     | Huddle landing page with alternating feature blocks   | [Live](https://huddle-landing-page-with-alternating-feature-blocks-mp.netlify.app/) | [Code](https://git.io/Js28s) |Free|
-| HTML--CSS     | Fylo dark theme landing page| [Live](https://fylo-dark-landing-page-mp.netlify.app/) | [Code](https://git.io/Js28W) |Free|
-| HTML--CSS     | Fylo landing page with two column layout | [Live](https://fylo-landing-page-with-two-column-layout-mp.netlify.app/) | [Code](https://git.io/Js28l) |Free|
-| HTML--CSS     | Huddle landing page with curved sections| [Live](https://huddle-landing-page-mp.netlify.app/) | [Code](https://git.io/Js2BI) |Free|
+| Date  | Challanges | Live|  Code| 
+| --- | -- |  -- | --  |
+| 4 Jan 2024 | QR Code Component | [Live](https://friendly-cheesecake-fe502b.netlify.app) | [Code](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/e6c6f713554a290d06b570919c9e65f5383f1443/QR%20code%20component) |
+| 4 Jan 2024 | Blog Preview Card | [Live](https://rainbow-rugelach-52872f.netlify.app/) | [Code](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/e6c6f713554a290d06b570919c9e65f5383f1443/Blog%20preview%20card) |
+| 4 Jan 2024 | Profile card component  | [Live](https://charming-pegasus-94d48b.netlify.app) | [Code](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/e6c6f713554a290d06b570919c9e65f5383f1443/Profile%20card%20component) |
+| 5 Jan 2024 | Order Summary Component | [Live](https://beautiful-pavlova-226b6c.netlify.app) | [Code](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/e6c6f713554a290d06b570919c9e65f5383f1443/Order%20summary%20component) |
+| 5 Jan 2024 | Product Preview Card Component | [Live](https://visionary-begonia-ef50c5.netlify.app) | [Code](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/e6c6f713554a290d06b570919c9e65f5383f1443/Product%20preview%20card%20component) |
+| 5 Jan 2024 | 3-column preview card component  | [Live](https://dulcet-tanuki-ca8717.netlify.app/) | [Code](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/e6c6f713554a290d06b570919c9e65f5383f1443/3%20Column%20preview%20card%20component) |
+| 6 Jan 2024 | NFT preview card component | [Live](https://visionary-baklava-76ad8d.netlify.app) | [Code](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/e6c6f713554a290d06b570919c9e65f5383f1443/NFT%20preview%20card%20component) |
+| 6 Jan 2024 | Single price grid component | [Live](https://calm-twilight-68f769.netlify.app) | [Code](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/e6c6f713554a290d06b570919c9e65f5383f1443/Single%20price%20grid%20component) |
+| 7 Jan 2024 | Stats preview card component | [Live](https://tubular-tapioca-8c6da0.netlify.app) | [Code](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/e6c6f713554a290d06b570919c9e65f5383f1443/Stats%20preview%20card%20component) |
+| 7 Jan 2024 | Huddle landing page with a single introductory section | [Live](https://adorable-brioche-75f693.netlify.app) | [Code](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/e6c6f713554a290d06b570919c9e65f5383f1443/Huddle%20landing%20page%20with%20single%20introductory%20section) |
 
