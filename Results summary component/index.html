@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body>
+  <main class="score-card">
+    <div class="card__score">
+      <h2 class="card__score-result">Your Result</h2>
+      <div class="card__circle">
+        <p class="card__score-value">76</p>
+        <p class="card__score-total">of 100</p>
+      </div>
+
+      <h1 class="card__score-heading">
+        Great
+      </h1>
+      <p class="card__score-feedback">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </div>
+    <div id="summary" class="card__summary">
+      <h2 class="card__summary-heading">
+        Summary
+      </h2>
+
+      <button id="btn" class="card__summary-btn btn">Continue</button>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Madhavan</a>.
+  </footer>
+
+  <script>
+    async function fetchData() {
+      try {
+        const response = await fetch('./data.json');
+        const data = await response.json();
+
+        console.log(data);
+
+        for (let index = 0; index < data.length; index++) {
+          addElement(data[index]);
+        }
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    }
+    // console.log(data);
+    function addElement(obj) {
+      let card = document.createElement("div");
+      card.classList.add("card__topic", obj.color);
+      let img = document.createElement("img");
+      img.src = obj.icon;
+      card.appendChild(img);
+      let name = document.createElement("p");
+      name.classList.add("card__topic-name");
+      name.innerText = obj.category;
+      card.appendChild(name);
+      let score = document.createElement("p");
+      score.classList.add("card__topic-score");
+      score.innerText = obj.score;
+      let total = document.createElement("span");
+      total.classList.add("card__topic-total");
+      total.innerText = " / 100";
+      score.appendChild(total);
+      card.appendChild(score);
+      const summary = document.getElementById("summary");
+      const btn = document.getElementById("btn");
+      summary.insertBefore(card, btn);
+    }
+
+    fetchData();
+  </script>
+
+</body>
+
+</html>
