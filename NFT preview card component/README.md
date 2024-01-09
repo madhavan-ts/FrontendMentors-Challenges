@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-component-using-flexbox-vKGBDzWq6M)
-- Live Site URL: [Live site URL](https://visionary-baklava-76ad8d.netlify.app)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/nft%20preview%20card%20component/)
 
 ## My process
 

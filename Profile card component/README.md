@@ -27,7 +27,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/profile-card-component-using-flexbox-and-background-position-ueJuiajoVv)
-- Live Site URL: [Live site URL](https://charming-pegasus-94d48b.netlify.app)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/profile%20card%20component/)
 
 ## My process
 

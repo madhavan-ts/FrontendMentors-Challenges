@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-using-grid-fWPckYEwN5)
-- Live Site URL: [Live site URL](https://magical-salamander-26b1a3.netlify.app/)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/four%20card%20feature%20section/)
 
 ## My process
 

@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Solution URL ](https://www.frontendmentor.io/solutions/qr-code-component-using-flex--mDR-mhyiA)
-- Live Site URL: [Live site URL](https://friendly-cheesecake-fe502b.netlify.app)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/qr%20code%20component/)
 
 ### Built with
 

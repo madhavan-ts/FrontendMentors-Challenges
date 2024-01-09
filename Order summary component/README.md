@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-using-flexbox-MOUhq9r3aw)
-- Live Site URL: [Live site URL](https://beautiful-pavlova-226b6c.netlify.app)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/order%20summary%20component/)
 
 ## My process
 

@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-single-grid-price-component-using-grid-sldT3ekVRk)
-- Live Site URL: [Live site URL](https://calm-twilight-68f769.netlify.app)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/single%20price%20grid%20component/)
 
 ## My process
 

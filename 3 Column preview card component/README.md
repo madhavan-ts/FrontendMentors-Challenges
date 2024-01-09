@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-3-column-card-component-using-flexbox-QKtM_IL1OB)
-- Live Site URL: [Live site URL](https://dulcet-tanuki-ca8717.netlify.app)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/3%20column%20preview%20card%20component/index.html)
 
 ## My process
 

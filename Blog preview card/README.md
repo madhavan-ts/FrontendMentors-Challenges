@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/blog-preview-card-with-focus-and-hover-states--BfDrqaywR)
-- Live Site URL: [Live site URL](https://rainbow-rugelach-52872f.netlify.app)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/blog%20preview%20card/)
 
 ## My process
 

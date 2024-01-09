@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/fully-responsive-social-proof-section-using-grid-and-flex-tKMmQwMblP)
-- Live Site URL: [Live site URL](https://adorable-rabanadas-7d234a.netlify.app/)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/social%20proof%20section/)
 
 ## My process
 

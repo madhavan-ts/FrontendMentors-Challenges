@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-a-single-introductory-section-Zj9BLzh1Dz)
-- Live Site URL: [Live site URL](https://adorable-brioche-75f693.netlify.app)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/huddle%20landing%20page%20with%20single%20introductory%20section/)
 
 ## My process
 
