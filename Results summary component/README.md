@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/dynamic-result-summary-component-using-vanilla-js-LpGd9HmfFk)
 - Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/Results%20summary%20component/)
 
 ## My process
@@ -50,11 +50,6 @@ I have learned to import the **JSON** data and used it to create the elements dy
 
 For used the data from **JSON**  we need to fetch the data. 
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
 async function fetchData() {
   try {
