@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-ping-coming-soon-page-with-form-validation-using-js-C4A7DUawK4)
 - Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/Ping%20coming%20soon%20page)
 
 ## My process
