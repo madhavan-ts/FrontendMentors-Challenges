@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+
+<body>
+  <main class="hero">
+    <img class="logo" src="./images/logo.svg" alt="PING Logo">
+    <h1 class="hero__heading">We are launching <span class="hero__heading--highlight">soon!</span></h1>
+    <p class="hero__caption">
+      Subscribe and get notified
+    </p>
+    <form action="" class="subscribe-form">
+      <input id="name" name="name" class="" placeholder="Your email address..." type="text">
+      <p class="msg" id="error-msg"></p>
+      <button class="btn">Notify Me</button>
+    </form>
+    <div class="hero__container"> <img src="./images/illustration-dashboard.png" alt="" class="hero__img">
+    </div>
+    <div class="hero__links">
+      <a href="www.facebook.com" class="link"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="www.twitter.com" class="link"><i class="fa-brands fa-twitter"></i></a>
+      <a href="www.instagram.com" class="link"><i class="fa-brands fa-instagram"></i></a>
+
+    </div>
+    <p class="copyright">
+      &copy; Copyright Ping. All rights reserved.
+    </p>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Madhavan</a>.
+    </p>
+  </footer>
+  <script src="https://kit.fontawesome.com/26099a21d7.js" crossorigin="anonymous"></script>
+  <script>
+
+    // addEventListener()
+
+    const btn = document.querySelector("button");
+    btn.addEventListener("click", validateForm)
+    function validateForm(e) {
+      e.preventDefault();
+
+      let email = document.getElementById("name").value;
+      console.log(email);
+
+      const pattern = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;
+      const input = document.getElementById("name");
+      const text = document.getElementById("error-msg");
+
+      if (pattern.test(email)) {
+        input.classList.toggle("success");
+        text.classList.toggle("success");
+        text.hidden = false;
+        text.innerText = "Form submitted Successfully"
+        input.value = "";
+      } else {
+        if (!input.classList.contains("error")) {
+          input.classList.toggle("error");
+          text.classList.toggle("error");
+          text.hidden = false;
+          text.innerText = "Please enter a valid email";
+        }
+        input.value = "";
+
+      }
+
+    }
+  </script>
+</body>
+
+</html>
