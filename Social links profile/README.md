@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-social-links-profile-using-html-and-css-h3Dr2HeOK3)
 - Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/Social%20links%20profile/)
 
 ## My process
