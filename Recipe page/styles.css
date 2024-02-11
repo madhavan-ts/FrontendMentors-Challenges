@@ -1,0 +1,155 @@
+:root {
+  --light-brown: hsl(14, 45%, 36%);
+  --red: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --rose: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --grey: hsl(30, 18%, 87%);
+  --brown: hsl(30, 10%, 34%);
+  --charcoal: hsl(24, 5%, 18%);
+  --serif: 'Young Serif', serif;
+}
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--eggshell);
+  font-family: 'Outfit', sans-serif;
+  min-height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.recipe {
+  max-width: 73.5rem;
+  background-color: var(--white);
+  /* display: flex; */
+  flex-direction: column;
+  margin: 10rem auto;
+  padding: 4rem;
+  border-radius: 2rem;
+  font-size: 1.6rem;
+  color: var(--brown);
+}
+
+.recipe__img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.recipe__name {
+  font-size: 4rem;
+  color: var(--charcoal);
+  font-weight: 400;
+  font-family: var(--serif);
+  margin-bottom: 1rem;
+}
+
+.recipe__description {
+  /* font-size: 1.6rem; */
+  margin-bottom: 2rem;
+}
+
+.recipe__time {
+  background-color: var(--rose);
+  padding: 3rem;
+  /* font-size: 1.6rem; */
+  border-radius: 1rem;
+}
+
+.recipe__time-heading {
+  font-size: 2rem;
+  color: var(--red);
+  margin-bottom: 1rem;
+}
+
+.recipe__list {
+  padding: 0 2rem;
+}
+
+.recipe__list-item {
+  padding-left: 2rem;
+}
+
+.recipe__list-item::marker {
+  font-weight: 700;
+  color: var(--light-brown);
+  vertical-align: middle;
+
+}
+
+.recipe__list .recipe__list-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.recipe__list-item--bold {
+  font-weight: 700;
+}
+
+
+.recipe-heading {
+  font-family: var(--serif);
+  font-size: 3rem;
+  margin: 2rem 0;
+  font-weight: 400;
+  color: var(--light-brown);
+}
+
+table,
+table tbody,
+table tbody tr {
+  display: block;
+}
+
+
+tr {
+  padding: 1rem;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid var(--grey);
+}
+
+td {
+  padding: 0 2rem;
+  display: inline-block;
+  width: 49%;
+}
+
+tr td:last-child {
+
+  color: var(--light-brown);
+  font-weight: 700;
+}
+
+section:not(:last-child) {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--grey);
+
+}
+
+@media only screen and (max-width: 735px) {
+  .recipe {
+    padding: 0;
+    border-radius: 0;
+    margin: 0;
+  }
+
+  .recipe__img {
+    border-radius: 0;
+  }
+
+  .recipe__content {
+    padding: 0 3rem 3rem;
+  }
+}
