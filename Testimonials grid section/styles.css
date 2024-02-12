@@ -113,7 +113,7 @@ html {
   color: var(--grayish-blue);
 }
 
-@media only screen and (max-width: 98rem) {
+@media only screen and (max-width: 980px) {
   .container {
     display: flex;
     flex-direction: column;
