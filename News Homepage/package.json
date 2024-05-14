@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "compile-sass": "sass styles.scss styles.css -w"
+  },
+  "dependencies": {
+    "sass": "^1.77.1"
+  }
+}

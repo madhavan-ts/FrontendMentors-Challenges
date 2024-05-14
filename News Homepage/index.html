@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>News homepage</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <img src="./assets/logo.svg" alt="Logg" class="nav__brand" />
+        <ul class="nav__list">
+          <span onclick="hideNav()" class="nav__close_btn">
+            <img src="./assets/icon-menu-close.svg" alt="" />
+          </span>
+          <li class="nav__list-item">
+            <a href="#" class="nav__list-item-link link link--nav">Home</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__list-item-link link link--nav">New</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__list-item-link link link--nav">Popular</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__list-item-link link link--nav">Trending</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__list-item-link link link--nav"
+              >Categories</a
+            >
+          </li>
+        </ul>
+        <span onclick="showNav()" class="nav__btn">
+          <img src="assets/icon-menu.svg" alt=""
+        /></span>
+      </nav>
+      <main class="content">
+        <picture class="content__image">
+          <source
+            media="(max-width: 768px)"
+            srcset="assets/image-web-3-mobile.jpg"
+          />
+          <img src="./assets/image-web-3-desktop.jpg" alt="" />
+        </picture>
+        <h1 class="content__heading">The Bright Future of Web 3.0?</h1>
+        <div class="content__description">
+          <p class="content__description-content">
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+          <a href="#" class="content__link btn btn--primary">Read more</a>
+        </div>
+
+        <section class="new">
+          <h2 class="new__heading">New</h2>
+          <article class="new__article">
+            <h3 class="new__article-heading">
+              <a href="#" class="new__article-heading-link link link--primary">
+                Hydrogen VS Electric Cars
+              </a>
+            </h3>
+            <p class="new__article-description">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </article>
+          <hr />
+          <article class="new__article">
+            <h3 class="new__article-heading">
+              <a href="#" class="new__article-heading-link link link--primary">
+                The Downsides of AI Artistry
+              </a>
+            </h3>
+            <p class="new__article-description">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </article>
+          <hr />
+          <article class="new__article">
+            <h3 class="new__article-heading">
+              <a href="#" class="new__article-heading-link link link--primary">
+                Is VC Funding Drying Up?
+              </a>
+            </h3>
+            <p class="new__article-description">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </article>
+        </section>
+      </main>
+      <section class="top">
+        <article class="top__article">
+          <img
+            src="./assets/image-retro-pcs.jpg"
+            alt=""
+            class="top__article-img"
+          />
+          <div class="top__article-content">
+            <span class="top__article-number">01</span>
+            <h4 class="top__article-heading">
+              <a
+                href="#"
+                class="top__article-heading-link link link--secondary"
+              >
+                Reviving Retro PCs
+              </a>
+            </h4>
+            <p class="top__article-description">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </article>
+        <article class="top__article">
+          <img
+            src="./assets/image-top-laptops.jpg"
+            alt=""
+            class="top__article-img"
+          />
+          <div class="top__article-content">
+            <span class="top__article-number">02</span>
+            <h4 class="top__article-heading">
+              <a
+                href="#"
+                class="top__article-heading-link link link--secondary"
+              >
+                Top 10 Laptops of 2022
+              </a>
+            </h4>
+            <p class="top__article-description">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </article>
+        <article class="top__article">
+          <img
+            src="./assets/image-gaming-growth.jpg"
+            alt=""
+            class="top__article-img"
+          />
+          <div class="top__article-content">
+            <span class="top__article-number">03</span>
+            <h4 class="top__article-heading">
+              <a
+                href="#"
+                class="top__article-heading-link link link--secondary"
+              >
+                The Growth of Gaming
+              </a>
+            </h4>
+            <p class="top__article-description">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </article>
+      </section>
+    </div>
+    <script>
+      function showNav() {
+        let nav = document.querySelector(".nav__list");
+        nav.classList.add("nav__list--active");
+      }
+      function hideNav() {
+        let nav = document.querySelector(".nav__list");
+        nav.classList.remove("nav__list--active");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,242 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: #fefdf9;
+}
+
+.container {
+  padding: 4rem 0;
+  max-width: 1240px;
+  margin-inline: auto;
+}
+@media only screen and (max-width: 1240px) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  margin-bottom: 3rem;
+}
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+@media (max-width: 600px) {
+  .nav__list {
+    display: none;
+  }
+  .nav__list--active {
+    padding: 2rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 20rem;
+    flex-direction: column;
+    background-color: hsl(36, 100%, 99%);
+  }
+}
+.nav__close_btn {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .nav__close_btn {
+    display: inline;
+    align-self: flex-end;
+    justify-self: flex-start;
+    margin-bottom: auto;
+  }
+}
+.nav__btn {
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .nav__btn {
+    display: inline;
+  }
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  grid-template-rows: repeat(2, max-content);
+  grid-auto-rows: max-content;
+  margin-bottom: 4rem;
+}
+@media only screen and (max-width: 1240px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.content__image {
+  height: max-content;
+  grid-column-end: span 2;
+}
+.content__image > * {
+  width: 100%;
+}
+.content__heading {
+  line-height: 1;
+  font-weight: 900;
+  font-size: 4rem;
+}
+.content__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content__description-content {
+  line-height: 1.75;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: hsl(236, 13%, 42%);
+}
+.content__link {
+  align-self: flex-start;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+  color: hsl(36, 100%, 99%);
+  padding: 1rem 2rem;
+  background-color: hsl(5, 85%, 63%);
+  transition: background-color 0.5s;
+}
+.btn:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  grid-column: 3/-1;
+  grid-row: 1/span 2;
+  padding: 2rem;
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+}
+@media only screen and (max-width: 1240px) {
+  .new {
+    gap: 1rem;
+  }
+}
+.new__heading {
+  font-size: 2.5rem;
+  color: hsl(35, 77%, 62%);
+}
+.new__article-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.new__article-description {
+  line-height: 1.75;
+  font-size: 1rem;
+  color: hsl(233, 8%, 79%);
+}
+
+.link {
+  transition: color 0.2s;
+}
+.link--nav {
+  color: hsl(236, 13%, 42%);
+}
+.link--nav:hover,
+.link--nav :active {
+  color: hsl(5, 85%, 63%);
+}
+.link--primary {
+  color: hsl(36, 100%, 99%);
+}
+.link--primary:hover, .link--primary:active {
+  color: hsl(35, 77%, 62%);
+}
+.link:link {
+  text-decoration: none;
+}
+.link--secondary {
+  color: hsl(240, 100%, 5%);
+}
+.link--secondary:hover, .link--secondary:active {
+  color: hsl(5, 85%, 63%);
+}
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+@media only screen and (max-width: 1240px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+.top__article {
+  display: flex;
+  gap: 1rem;
+}
+.top__article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 1240px) {
+  .top__article-content {
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+}
+.top__article-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(233, 8%, 79%);
+}
+.top__article-heading {
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.top__article-img {
+  flex-basis: 10rem;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 1240px) {
+  .top__article-img {
+    overflow-x: unset;
+  }
+}
+.top__article-description {
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
