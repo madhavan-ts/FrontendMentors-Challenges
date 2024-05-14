@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/madhavan-ts/FrontendMentors-Challenges/tree/71a52a6975a80f6f4a71e33e43a4ddbe099a6d49/News%20Homepage)
+- Live Site URL: [Live site URL](https://fancy-dasik-0d72aa.netlify.app/news%20homepage/)
 
 ## My process
 
